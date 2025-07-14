@@ -2,9 +2,9 @@
 
 namespace Diet.Domain.supplement;
 
-public class SupplementGroup: BaseEntity
+public class SupplementAlerzhy : BaseEntity
 {
-    private SupplementGroup() { }
+    private SupplementAlerzhy() { }
     public string Title { get; set; }
     public virtual ICollection<Supplement> Supplement { get; private set; }
 }
